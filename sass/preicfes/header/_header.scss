@@ -1,0 +1,53 @@
+#header{
+  background-color: $background-header;
+  .telefono{
+    padding-right:30px;
+    .fa-phone{
+      color: $blue-phone;
+    }
+
+    h5{
+      color: $white;
+    }
+  }
+
+  .brands{
+    .brand{
+      @include brands;
+      a{
+          color: $color-brands;
+          .fab{
+            font-size: 1.4em;
+          }
+
+          .fa-facebook-f:hover{
+            color: $facebook-color;
+          }
+          .fa-twitter:hover{
+            color: $twitter-color;
+          }
+          .fa-instagram:hover{
+            color: $instagram-color;
+          }
+      }
+    }
+  }
+
+  .location{
+    background-color: $background-location;
+      .words{
+        p{
+          padding-top: 3px;
+          font-weight: bold;
+          margin-bottom: 0px !important;
+        }
+      }
+      .world{
+        font-size: 1.2em;
+        .fas{
+          color: $color-globe;
+        }
+      }
+  }
+
+}

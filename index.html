@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./dist/css/bootstrap.css">
     <link rel="stylesheet" href="./dist/css/fa-solid.css">
     <link rel="stylesheet" href="./dist/css/fa-brands.css">
+    <link rel="stylesheet" href="./dist/css/fa-regular.css">
     <link rel="stylesheet" href="./dist/css/fontawesome.css">
   </head>
   <body>
@@ -42,7 +43,121 @@
           </div>
         </div>
 
+        <div class="container-fluid" id="navbar">
+            <div class="row">
+              <div class="col nav-item">
+                  <a href="#">
+                    <div class="row">
+                      <div class="col-2">
+                        <i class="far fa-folder-open"></i>
+                      </div>
+                      <div class="col">
+                        <p>
+                          Pre Icfes <br>
+                          <small>Prueba de conocimiento</small>
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+              </div>
+              <div class="col nav-item">
+                  <a href="#">
+                    <div class="row">
+                      <div class="col-2">
+                        <i class="fas fa-certificate"></i>
+                      </div>
+                      <div class="col">
+                        <p>
+                          Objetivos <br>
+                          <small>
+                            Propósito a alcanzar
+                          </small>
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+              </div>
+              <div class="col nav-item">
+                  <a href="#">
+                    <div class="row">
+                      <div class="col-2">
+                        <i class="fas fa-child"></i>
+                      </div>
+                      <div class="col">
+                        <p>
+                          ¿A quién evalúa? <br>
+                          <small>
+                            Requisito de Grado
+                          </small>
+                        </p>
+                      </div>
+                      </div>
+                  </a>
+              </div>
+              <div class="col nav-item">
+                  <a href="#">
+                    <div class="row">
+                      <div class="col-2">
+                        <i class="fas fa-assistive-listening-systems"></i>
+                      </div>
+                      <div class="col">
+                        <p>
+                          ¿Qué se evalúa? <br>
+                          <small>
+                            Conocimientos adquiridos
+                          </small>
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+              </div>
+              <div class="col nav-item">
+                  <a href="#">
+                    <div class="row">
+                      <div class="col-2">
+                        <i class="fas fa-book"></i>
+                      </div>
+                      <div class="col">
+                        <p>
+                          Aplicación pruebas<br>
+                          <small>
+                            Instrucciones
 
+
+
+                          </small>
+                        </p>
+                      </div>
+                    </div>
+                </a>
+              </div>
+            </div>
+        </div>
+
+        <div class="container-fluid"  id="parallax">
+          <img data-depth="0.1" src="./dist/images/background-1.jpeg" alt="">
+          <div class="w100">
+            <div class="row">
+              <div class="col-3">
+                <h2>Fundapar</h2>
+              </div>
+              <div class="col">
+                <img src="./dist/images/img-1.png" alt="" class="img-fluid" id="img-opa">
+              </div>
+              <div class="col-1">
+                <div id="login" class="text-center">
+                  <p>
+                    <i class="fas fa-sign-in-alt"></i>
+                    Ingrese aquí.
+                  </p>
+                  <a href="http://aulavirtual.fundapar.org/">
+                        SIMULACROS
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
 
 
@@ -56,12 +171,10 @@
             main: 'preicfes',
             map:{
               'jquery':'node_modules/jquery/dist/jquery.min.js',
-              'bootstrap':'node_modules/bootstrap/dist/js/bootstrap.min.js',
-              'materialize-css': 'node_modules/materialize/dist/js/materialize.min.js',
-              'popper.js': 'node_modules/popper.js/dist/umd/popper.min.js',
+              'bootstrap':'node_modules/bootstrap/dist/js/bootstrap.bundle.min.js',
+              'parallax-js': 'node_modules/parallax-js/dist/parallax.min.js',
             },
             defaultExtension: 'js',
-
           }
         }
       });

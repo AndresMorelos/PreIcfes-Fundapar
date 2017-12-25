@@ -7,10 +7,10 @@
 
 import "jquery";
 import "bootstrap";
-import "materialize-css";
-import "popper.js";
+const Parallax = require('parallax-js');
 
 
 $(document).ready(function(){
-  console.log("Pagina cargada");
-})
+  let parallax_scene = document.getElementById('parallax');
+  let parallax = new Parallax(parallax_scene);
+});

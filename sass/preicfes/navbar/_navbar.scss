@@ -1,0 +1,34 @@
+#navbar{
+  background: $background-navbar;
+  border-color: $border-color-navbar;
+  .nav-item{
+    height: 70px;
+    &:nth-child(1){
+      @include border-bottom-color($blue-ligthing);
+    }
+    &:nth-child(2){
+      @include border-bottom-color($green-ligthing);
+    }
+    &:nth-child(3){
+      @include border-bottom-color($orange-ligthing);
+    }
+    &:nth-child(4){
+      @include border-bottom-color($red-ligthing);
+    }
+    &:nth-child(5){
+      @include border-bottom-color($purple-ligthing);
+    }
+    a{
+      height: 100%;
+      text-decoration: none;
+      color: $color-brands;
+      div{
+        padding: 5px;
+      }
+      i{
+        font-size: 2.5em;
+        color: $color-brands;
+      }
+    }
+  }
+}

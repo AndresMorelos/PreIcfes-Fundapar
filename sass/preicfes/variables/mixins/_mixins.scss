@@ -1,0 +1,16 @@
+@mixin brands {
+  background-color: $background-brands;
+  height: 32px;
+  width: 200px;
+  padding-top: 5px;
+}
+
+@mixin border-bottom-color($color) {
+  border-bottom: 4px solid $color;
+}
+
+@mixin box-shadow($color) {
+  -webkit-box-shadow: 0px 0px 49px 0px $color;
+  -moz-box-shadow: 0px 0px 49px 0px $color;
+  box-shadow: 0px 0px 49px 0px $color;
+}

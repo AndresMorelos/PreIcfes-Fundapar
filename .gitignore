@@ -3,3 +3,4 @@ dist/js/preicfes*
 .sass-cache/
 dist/images/img-1.png
 node_modules/
+DOCS/

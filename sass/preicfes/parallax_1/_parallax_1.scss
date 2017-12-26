@@ -36,6 +36,7 @@
         color: $white;
         border-radius: 5%;
         @include box-shadow(rgba(92,92,92,0.48));
+        pointer-events: all !important;
       }
     }
   }

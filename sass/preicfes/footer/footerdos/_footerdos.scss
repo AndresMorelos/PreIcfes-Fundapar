@@ -1,0 +1,26 @@
+#footerdos{
+  border-top: solid 1px $white;
+  .row{
+    padding-left: 2%;
+    padding-right: 2%;
+    .col{
+      &:nth-child(2){
+        #creditsmodal{
+          color: $white;
+        }
+
+        .modal{
+          .modal-dialog{
+            .modal-content{
+              .modal-body{
+                #AncaSystems-Logo{
+                  width: 150px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

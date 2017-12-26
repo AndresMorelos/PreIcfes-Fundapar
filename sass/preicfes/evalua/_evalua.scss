@@ -1,0 +1,29 @@
+#evalua{
+  padding: 120px;
+  background-color: $white;
+  #evalua-img{
+    width: 550px;
+  }
+  .row{
+    .col{
+      ul{
+        list-style-type: none;
+        font-size: 1.5em;
+        li{
+          p{
+            .fas{
+              color: $blue-ligthing;
+              font-size: 1.6em;
+            }
+          }
+        }
+      }
+      p{
+        .fa-graduation-cap{
+          color: $blue-ligthing;
+          font-size: 4em;
+        }
+      }
+    }
+  }
+}

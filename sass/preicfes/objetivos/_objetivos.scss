@@ -1,0 +1,14 @@
+#objetivos{
+  background-color: $background-default;
+  #target-img{
+    width: 650px;
+  }
+  .row{
+    .col{
+      &:nth-child(1){
+        padding-top: 15%;
+        padding-left: 15%;
+      }
+    }
+  }
+}
